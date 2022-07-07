@@ -1,0 +1,14 @@
+模块安装
+安装：pip install beautifulsoup4
+注意模块名称！
+
+对象初始化：
+并指定解析器的类型
+BS4支持的解析器主要有：
+python标准库    BeautifulSoup(makeup,"html.parser")
+lxml HTML解析器  BeautifulSoup(makeup,"lxml")
+lxml XML解析器  BeautifulSoup(makeup,"xml")
+html5lib   BeautifulSoup(makeup,"html5lib")
+
+
+
